@@ -1,4 +1,4 @@
-"""Stake Validator - Simulates NeuroWeb staking requirements"""
+
 
 import math
 from typing import Dict
