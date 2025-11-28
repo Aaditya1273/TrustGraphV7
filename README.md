@@ -5,7 +5,6 @@
 🥇 **Scaling Trust in the AI Era Hackathon** — Social Graph Reputation Track
 
 ---
-
 ## 🎯 Quick Start
 
 ```bash
