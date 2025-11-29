@@ -1,5 +1,5 @@
 {
-  "total": 61,
+  "total": 72,
   "atoms": [
     {
       "kaId": "local:a831818f085cfdaf",
@@ -2018,6 +2018,368 @@
         "issued": "2025-11-28T18:43:24.172027Z"
       },
       "timestamp": "2025-11-28T18:43:39.947267",
+      "mode": "LOCAL"
+    },
+    {
+      "kaId": "local:3030e9e1e4fe9d13",
+      "trustAtom": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://trustgraph.io/schemas/trust-atom-v7"
+        ],
+        "@type": "VerifiableTrustAtom",
+        "issuer": "did:key:z6MkhaXgBZDvotDkL5257faiztiGiC2QtKLGpbnnEGta2doK",
+        "target": "npub1grok7h3k2w8rs00hjmfjhgqznkmjk4ldy0sdj",
+        "trustVector": {
+          "honesty": 0.5,
+          "expertise": 0.5,
+          "bias": 0.5,
+          "safety": 0.5,
+          "speed": 0.5,
+          "alignment": 0.5,
+          "responsiveness": 0.5,
+          "stake_weight": 1.0
+        },
+        "overall": 0.55,
+        "content": "Test publish via MCP",
+        "evidenceKA": [],
+        "expires": null,
+        "replaces": null,
+        "requiredStake": "0",
+        "x402": null,
+        "issued": "2025-11-29T06:54:10.773191Z"
+      },
+      "timestamp": "2025-11-29T06:54:22.181095",
+      "mode": "LOCAL"
+    },
+    {
+      "kaId": "local:fe20c7994d2f1e0e",
+      "trustAtom": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://trustgraph.io/schemas/trust-atom-v7"
+        ],
+        "@type": "VerifiableTrustAtom",
+        "issuer": "did:key:z6MkhaXgBZDvotDkL5257faiztiGiC2QtKLGpbnnEGta2doK",
+        "target": "npub1grok7h3k2w8rs00hjmfjhgqznkmjk4ldy0sdj",
+        "trustVector": {
+          "honesty": 0.98,
+          "expertise": 0.95,
+          "bias": 0.15,
+          "safety": 0.99,
+          "speed": 0.88,
+          "alignment": 0.94,
+          "responsiveness": 0.91,
+          "stake_weight": 1.0
+        },
+        "overall": 1.0,
+        "content": "Exceptional AI alignment researcher with consistent accuracy",
+        "evidenceKA": [
+          "otobject:km1abc123"
+        ],
+        "expires": null,
+        "replaces": null,
+        "requiredStake": "100",
+        "x402": null,
+        "issued": "2025-11-29T06:59:07.328690Z"
+      },
+      "timestamp": "2025-11-29T06:59:18.416236",
+      "mode": "LOCAL"
+    },
+    {
+      "kaId": "local:65282f71158226ea",
+      "trustAtom": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://trustgraph.io/schemas/trust-atom-v7"
+        ],
+        "@type": "VerifiableTrustAtom",
+        "issuer": "did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH",
+        "target": "https://twitter.com/elonmusk",
+        "trustVector": {
+          "honesty": 0.72,
+          "expertise": 0.95,
+          "bias": 0.65,
+          "safety": 0.8,
+          "speed": 0.95,
+          "alignment": 0.7,
+          "responsiveness": 0.88,
+          "stake_weight": 1.389075625191822
+        },
+        "overall": 1.0,
+        "content": "High expertise in tech/space, moderate bias in political content",
+        "evidenceKA": [],
+        "expires": null,
+        "replaces": null,
+        "requiredStake": "600",
+        "x402": null,
+        "issued": "2025-11-29T06:59:07.328734Z"
+      },
+      "timestamp": "2025-11-29T06:59:22.449276",
+      "mode": "LOCAL"
+    },
+    {
+      "kaId": "local:2fd7bd597ef54894",
+      "trustAtom": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://trustgraph.io/schemas/trust-atom-v7"
+        ],
+        "@type": "VerifiableTrustAtom",
+        "issuer": "did:key:z6MkhaXgBZDvotDkL5257faiztiGiC2QtKLGpbnnEGta2doK",
+        "target": "npub1grok7h3k2w8rs00hjmfjhgqznkmjk4ldy0sdj",
+        "trustVector": {
+          "honesty": 0.98,
+          "expertise": 0.95,
+          "bias": 0.15,
+          "safety": 0.99,
+          "speed": 0.88,
+          "alignment": 0.94,
+          "responsiveness": 0.91,
+          "stake_weight": 1.0
+        },
+        "overall": 1.0,
+        "content": "Exceptional AI alignment researcher with consistent accuracy",
+        "evidenceKA": [
+          "otobject:km1abc123"
+        ],
+        "expires": null,
+        "replaces": null,
+        "requiredStake": "100",
+        "x402": null,
+        "issued": "2025-11-29T07:24:09.126019Z"
+      },
+      "timestamp": "2025-11-29T07:24:18.307794",
+      "mode": "LOCAL"
+    },
+    {
+      "kaId": "local:12f85703cfe9f7b1",
+      "trustAtom": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://trustgraph.io/schemas/trust-atom-v7"
+        ],
+        "@type": "VerifiableTrustAtom",
+        "issuer": "did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH",
+        "target": "https://twitter.com/elonmusk",
+        "trustVector": {
+          "honesty": 0.72,
+          "expertise": 0.95,
+          "bias": 0.65,
+          "safety": 0.8,
+          "speed": 0.95,
+          "alignment": 0.7,
+          "responsiveness": 0.88,
+          "stake_weight": 1.389075625191822
+        },
+        "overall": 1.0,
+        "content": "High expertise in tech/space, moderate bias in political content",
+        "evidenceKA": [],
+        "expires": null,
+        "replaces": null,
+        "requiredStake": "600",
+        "x402": null,
+        "issued": "2025-11-29T07:24:09.126097Z"
+      },
+      "timestamp": "2025-11-29T07:26:24.865160",
+      "mode": "LOCAL"
+    },
+    {
+      "kaId": "local:00158a3d11533a2b",
+      "trustAtom": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://trustgraph.io/schemas/trust-atom-v7"
+        ],
+        "@type": "VerifiableTrustAtom",
+        "issuer": "did:key:z6MkhaXgBZDvotDkL5257faiztiGiC2QtKLGpbnnEGta2doK",
+        "target": "npub1grok7h3k2w8rs00hjmfjhgqznkmjk4ldy0sdj",
+        "trustVector": {
+          "honesty": 0.98,
+          "expertise": 0.95,
+          "bias": 0.15,
+          "safety": 0.99,
+          "speed": 0.88,
+          "alignment": 0.94,
+          "responsiveness": 0.91,
+          "stake_weight": 1.0
+        },
+        "overall": 1.0,
+        "content": "Exceptional AI alignment researcher with consistent accuracy",
+        "evidenceKA": [
+          "otobject:km1abc123"
+        ],
+        "expires": null,
+        "replaces": null,
+        "requiredStake": "100",
+        "x402": null,
+        "issued": "2025-11-29T07:27:16.493481Z"
+      },
+      "timestamp": "2025-11-29T07:27:20.592269",
+      "mode": "LOCAL"
+    },
+    {
+      "kaId": "local:c4dc28bb93bf466f",
+      "trustAtom": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://trustgraph.io/schemas/trust-atom-v7"
+        ],
+        "@type": "VerifiableTrustAtom",
+        "issuer": "did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH",
+        "target": "https://twitter.com/elonmusk",
+        "trustVector": {
+          "honesty": 0.72,
+          "expertise": 0.95,
+          "bias": 0.65,
+          "safety": 0.8,
+          "speed": 0.95,
+          "alignment": 0.7,
+          "responsiveness": 0.88,
+          "stake_weight": 1.389075625191822
+        },
+        "overall": 1.0,
+        "content": "High expertise in tech/space, moderate bias in political content",
+        "evidenceKA": [],
+        "expires": null,
+        "replaces": null,
+        "requiredStake": "600",
+        "x402": null,
+        "issued": "2025-11-29T07:27:16.493512Z"
+      },
+      "timestamp": "2025-11-29T07:27:23.547981",
+      "mode": "LOCAL"
+    },
+    {
+      "kaId": "local:e9e49c4b93acc9ad",
+      "trustAtom": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://trustgraph.io/schemas/trust-atom-v7"
+        ],
+        "@type": "VerifiableTrustAtom",
+        "issuer": "did:key:z6MkhaXgBZDvotDkL5257faiztiGiC2QtKLGpbnnEGta2doK",
+        "target": "npub1grok7h3k2w8rs00hjmfjhgqznkmjk4ldy0sdj",
+        "trustVector": {
+          "honesty": 0.98,
+          "expertise": 0.95,
+          "bias": 0.15,
+          "safety": 0.99,
+          "speed": 0.88,
+          "alignment": 0.94,
+          "responsiveness": 0.91,
+          "stake_weight": 1.0
+        },
+        "overall": 1.0,
+        "content": "Exceptional AI alignment researcher with consistent accuracy",
+        "evidenceKA": [
+          "otobject:km1abc123"
+        ],
+        "expires": null,
+        "replaces": null,
+        "requiredStake": "100",
+        "x402": null,
+        "issued": "2025-11-29T07:33:43.059572Z"
+      },
+      "timestamp": "2025-11-29T07:33:48.297802",
+      "mode": "LOCAL"
+    },
+    {
+      "kaId": "local:0c9e2f454bd2616e",
+      "trustAtom": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://trustgraph.io/schemas/trust-atom-v7"
+        ],
+        "@type": "VerifiableTrustAtom",
+        "issuer": "did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH",
+        "target": "https://twitter.com/elonmusk",
+        "trustVector": {
+          "honesty": 0.72,
+          "expertise": 0.95,
+          "bias": 0.65,
+          "safety": 0.8,
+          "speed": 0.95,
+          "alignment": 0.7,
+          "responsiveness": 0.88,
+          "stake_weight": 1.389075625191822
+        },
+        "overall": 1.0,
+        "content": "High expertise in tech/space, moderate bias in political content",
+        "evidenceKA": [],
+        "expires": null,
+        "replaces": null,
+        "requiredStake": "600",
+        "x402": null,
+        "issued": "2025-11-29T07:33:43.059630Z"
+      },
+      "timestamp": "2025-11-29T07:33:52.441894",
+      "mode": "LOCAL"
+    },
+    {
+      "kaId": "local:480e49be8877862a",
+      "trustAtom": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://trustgraph.io/schemas/trust-atom-v7"
+        ],
+        "@type": "VerifiableTrustAtom",
+        "issuer": "did:key:z6MkhaXgBZDvotDkL5257faiztiGiC2QtKLGpbnnEGta2doK",
+        "target": "npub1grok7h3k2w8rs00hjmfjhgqznkmjk4ldy0sdj",
+        "trustVector": {
+          "honesty": 0.98,
+          "expertise": 0.95,
+          "bias": 0.15,
+          "safety": 0.99,
+          "speed": 0.88,
+          "alignment": 0.94,
+          "responsiveness": 0.91,
+          "stake_weight": 1.0
+        },
+        "overall": 1.0,
+        "content": "Exceptional AI alignment researcher with consistent accuracy",
+        "evidenceKA": [
+          "otobject:km1abc123"
+        ],
+        "expires": null,
+        "replaces": null,
+        "requiredStake": "100",
+        "x402": null,
+        "issued": "2025-11-29T07:35:34.043056Z"
+      },
+      "timestamp": "2025-11-29T07:35:38.495682",
+      "mode": "LOCAL"
+    },
+    {
+      "kaId": "local:eb4999597af8485c",
+      "trustAtom": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://trustgraph.io/schemas/trust-atom-v7"
+        ],
+        "@type": "VerifiableTrustAtom",
+        "issuer": "did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH",
+        "target": "https://twitter.com/elonmusk",
+        "trustVector": {
+          "honesty": 0.72,
+          "expertise": 0.95,
+          "bias": 0.65,
+          "safety": 0.8,
+          "speed": 0.95,
+          "alignment": 0.7,
+          "responsiveness": 0.88,
+          "stake_weight": 1.389075625191822
+        },
+        "overall": 1.0,
+        "content": "High expertise in tech/space, moderate bias in political content",
+        "evidenceKA": [],
+        "expires": null,
+        "replaces": null,
+        "requiredStake": "600",
+        "x402": null,
+        "issued": "2025-11-29T07:35:34.043094Z"
+      },
+      "timestamp": "2025-11-29T07:35:43.048452",
       "mode": "LOCAL"
     }
   ]
