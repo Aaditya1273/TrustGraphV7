@@ -1,8 +1,8 @@
 {
   "total": 2,
   "uals": [
-    "local:d16b58d0b25ab8d4",
-    "local:621979a391a502a0"
+    "local:eb28b265794eebbf",
+    "local:9036f935528d7be5"
   ],
   "atoms": [
     {
@@ -32,7 +32,7 @@
       "replaces": null,
       "requiredStake": "100",
       "x402": null,
-      "issued": "2025-11-19T11:49:14.007690Z"
+      "issued": "2025-11-28T18:41:37.066097Z"
     },
     {
       "@context": [
@@ -59,7 +59,7 @@
       "replaces": null,
       "requiredStake": "600",
       "x402": null,
-      "issued": "2025-11-19T11:49:14.007690Z"
+      "issued": "2025-11-28T18:41:37.066121Z"
     }
   ]
 }

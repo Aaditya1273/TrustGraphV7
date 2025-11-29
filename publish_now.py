@@ -15,17 +15,21 @@ load_dotenv()
 
 def check_credentials():
     """Check if DKG credentials are configured"""
-    priv_key = os.getenv("WALLET_PRIVATE_KEY")
-    
+    priv_key = os.getenv("WALLET_PRIVATE_KEY") or os.getenv("PRIVATE_KEY")
+
     if not priv_key:
         print("❌ ERROR: DKG credentials not configured!")
         print("\n📋 TO FIX THIS:")
         print("1. Make sure .env file exists")
-        print("2. Add your wallet private key:")
-        print("   WALLET_PRIVATE_KEY=0x...")
-        print("\n💡 Get testnet tokens from Discord bot")
+        print("2. Add your wallet private key (either var works):")
+        print("   WALLET_PRIVATE_KEY=0x...  or  PRIVATE_KEY=0x...")
+        print("\n💡 Get testnet tokens from faucet")
         return False
-    
+
+    # Ensure SDK-compatible env var is present
+    if not os.getenv("PRIVATE_KEY"):
+        os.environ["PRIVATE_KEY"] = priv_key
+
     print("✅ DKG credentials found")
     print(f"   Private Key: {priv_key[:10]}...{priv_key[-8:]}")
     return True

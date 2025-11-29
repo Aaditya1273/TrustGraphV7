@@ -1,5 +1,5 @@
 {
-  "total": 58,
+  "total": 61,
   "atoms": [
     {
       "kaId": "local:a831818f085cfdaf",
@@ -1920,6 +1920,104 @@
         "issued": "2025-11-19T11:49:14.007690Z"
       },
       "timestamp": "2025-11-19T11:49:27.888526",
+      "mode": "LOCAL"
+    },
+    {
+      "kaId": "local:eb28b265794eebbf",
+      "trustAtom": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://trustgraph.io/schemas/trust-atom-v7"
+        ],
+        "@type": "VerifiableTrustAtom",
+        "issuer": "did:key:z6MkhaXgBZDvotDkL5257faiztiGiC2QtKLGpbnnEGta2doK",
+        "target": "npub1grok7h3k2w8rs00hjmfjhgqznkmjk4ldy0sdj",
+        "trustVector": {
+          "honesty": 0.98,
+          "expertise": 0.95,
+          "bias": 0.15,
+          "safety": 0.99,
+          "speed": 0.88,
+          "alignment": 0.94,
+          "responsiveness": 0.91,
+          "stake_weight": 1.0
+        },
+        "overall": 1.0,
+        "content": "Exceptional AI alignment researcher with consistent accuracy",
+        "evidenceKA": [
+          "otobject:km1abc123"
+        ],
+        "expires": null,
+        "replaces": null,
+        "requiredStake": "100",
+        "x402": null,
+        "issued": "2025-11-28T18:41:37.066097Z"
+      },
+      "timestamp": "2025-11-28T18:41:43.519680",
+      "mode": "LOCAL"
+    },
+    {
+      "kaId": "local:9036f935528d7be5",
+      "trustAtom": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://trustgraph.io/schemas/trust-atom-v7"
+        ],
+        "@type": "VerifiableTrustAtom",
+        "issuer": "did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH",
+        "target": "https://twitter.com/elonmusk",
+        "trustVector": {
+          "honesty": 0.72,
+          "expertise": 0.95,
+          "bias": 0.65,
+          "safety": 0.8,
+          "speed": 0.95,
+          "alignment": 0.7,
+          "responsiveness": 0.88,
+          "stake_weight": 1.389075625191822
+        },
+        "overall": 1.0,
+        "content": "High expertise in tech/space, moderate bias in political content",
+        "evidenceKA": [],
+        "expires": null,
+        "replaces": null,
+        "requiredStake": "600",
+        "x402": null,
+        "issued": "2025-11-28T18:41:37.066121Z"
+      },
+      "timestamp": "2025-11-28T18:41:49.553856",
+      "mode": "LOCAL"
+    },
+    {
+      "kaId": "local:0f8ce874bf4e8915",
+      "trustAtom": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://trustgraph.io/schemas/trust-atom-v7"
+        ],
+        "@type": "VerifiableTrustAtom",
+        "issuer": "did:key:z6MkhaXgBZDvotDkL5257faiztiGiC2QtKLGpbnnEGta2doK",
+        "target": "npub1grok7h3k2w8rs00hjmfjhgqznkmjk4ldy0sdj",
+        "trustVector": {
+          "honesty": 0.5,
+          "expertise": 0.5,
+          "bias": 0.5,
+          "safety": 0.5,
+          "speed": 0.5,
+          "alignment": 0.5,
+          "responsiveness": 0.5,
+          "stake_weight": 1.0
+        },
+        "overall": 0.55,
+        "content": "Test publish via MCP",
+        "evidenceKA": [],
+        "expires": null,
+        "replaces": null,
+        "requiredStake": "0",
+        "x402": null,
+        "issued": "2025-11-28T18:43:24.172027Z"
+      },
+      "timestamp": "2025-11-28T18:43:39.947267",
       "mode": "LOCAL"
     }
   ]

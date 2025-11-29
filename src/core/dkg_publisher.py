@@ -14,24 +14,32 @@ class DKGPublisher:
     
     def __init__(self):
         # Check if DKG credentials are configured
-        private_key = os.getenv("WALLET_PRIVATE_KEY")
+        private_key = os.getenv("WALLET_PRIVATE_KEY") or os.getenv("PRIVATE_KEY")
+        # Ensure SDK-compatible env var is present
+        if private_key and not os.getenv("PRIVATE_KEY"):
+            os.environ["PRIVATE_KEY"] = private_key
+        public_key = os.getenv("WALLET_PUBLIC_KEY") or os.getenv("PUBLIC_KEY")
+        if public_key and not os.getenv("PUBLIC_KEY"):
+            os.environ["PUBLIC_KEY"] = public_key
         
         if private_key:
             try:
                 from dkg import DKG
                 from dkg.providers import NodeHTTPProvider, BlockchainProvider
                 
-                # PUBLIC TESTNET NODE - Try hostname with HTTP
-                node_url = "http://v8-testnet-node.origintrail.io:8900"  # Public testnet node
-                
+                # PUBLIC TESTNET NODE by default; prefer env overrides
+                env_host = os.getenv("DKG_NODE_HOSTNAME")
+                env_port = os.getenv("DKG_NODE_PORT")
+                node_url = env_host or (f"http://localhost:{env_port}" if env_port else "http://v8-testnet-node.origintrail.io:8900")
+
                 print("🔧 Initializing DKG v8 SDK...")
-                print(f"   Node: {node_url} (PUBLIC TESTNET)")
-                print(f"   Blockchain: NeuroWeb Testnet (otp:20430)")
+                print(f"   Node: {node_url}")
+                print(f"   Blockchain: {os.getenv('DKG_BLOCKCHAIN_ID', 'otp:20430')}")
                 
                 # Create providers - blockchain_id is the ONLY required parameter
                 node_provider = NodeHTTPProvider(endpoint_uri=node_url, api_version="v1")
                 blockchain_provider = BlockchainProvider(
-                    blockchain_id="otp:20430"  # NeuroWeb testnet - environment is auto-derived
+                    blockchain_id=os.getenv("DKG_BLOCKCHAIN_ID", "otp:20430")  # NeuroWeb testnet - environment is auto-derived
                 )
                 
                 # SDK will automatically load PRIVATE_KEY from .env

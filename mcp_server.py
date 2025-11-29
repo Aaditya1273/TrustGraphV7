@@ -2,12 +2,16 @@
 """MCP Server - Model Context Protocol endpoint for AI agents"""
 
 import os
+from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException, Header
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 from typing import Optional, List, Dict
 from src.core.dkg_publisher import DKGPublisher
 from src.core.trust_atom import TrustAtomV7, TrustVector
+
+# Load environment variables
+load_dotenv()
 
 app = FastAPI(title="Trust Graph v7 MCP Server")
 publisher = DKGPublisher()
